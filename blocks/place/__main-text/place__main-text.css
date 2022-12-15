@@ -1,0 +1,11 @@
+.place__main-text {
+    margin: 0;
+}
+
+    /* Стили для смартфона */
+
+@media screen and (max-width: 320px) {
+    .place__main-text {
+        margin: 0 16px 0;
+    }
+    }

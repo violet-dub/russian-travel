@@ -1,0 +1,41 @@
+.place__paragraph {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    margin: 0;
+    margin-bottom: 26px;
+}
+
+.place__paragraph:last-of-type {
+    margin-bottom: 0;
+} 
+
+    /* Стили для планшета */
+  
+  @media screen and (max-width: 768px) {
+    .place__paragraph {
+        font-size: 16px;
+        line-height: 163%;
+        margin: 0;
+        margin-bottom: 25px;
+    }
+    
+    .place__main-text:last-of-type {
+        margin-bottom: 0;
+    } 
+  }
+  
+    /* Стили для смартфона */
+  
+    @media screen and (max-width: 320px) {
+        .place__paragraph {
+            font-size: 16px;
+            line-height: 163%;
+            margin: 0;
+            margin-bottom: 25px;
+        }
+        
+        .place__main-text:last-of-type {
+            margin-bottom: 0;
+        } 
+    }

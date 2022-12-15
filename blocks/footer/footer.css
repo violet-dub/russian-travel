@@ -1,0 +1,31 @@
+/* Основной код для разрешения 1280px */
+
+  .footer {
+    margin: 0 48px 24px;
+    max-width: calc(100% - 96px);
+    min-height: 18px;
+    display: flex; 
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+
+  /* Стили для планшета */
+
+@media screen and (max-width: 768px) {
+ .footer {
+    margin: 0 24px 24px;
+    max-width: calc(100% - 48px);
+  }
+}
+
+  /* Стили для смартфона */
+
+  @media screen and (max-width: 320px) {
+    .footer {
+      margin: 0 118px 16px 24px;
+      flex-direction: column;
+      max-width: calc(100% - 134px);
+      min-height: 310px;
+    }
+  }
+  

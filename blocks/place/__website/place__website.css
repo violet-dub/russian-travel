@@ -1,0 +1,13 @@
+.place__website {
+    margin: 0;
+    align-self: end;
+    justify-self: stretch;
+}
+
+/* Стили для смартфона */
+  
+@media screen and (max-width: 320px) {
+    .place__website {
+        margin: 0 16px 0;
+    }
+    }

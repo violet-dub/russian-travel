@@ -1,0 +1,38 @@
+/* Основной код для разрешения 1280px */
+
+.lead__subtitle {
+    margin: 0 auto 64px;
+    max-width: 640px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 120%;
+    align-self: center;
+    text-align: center;
+}
+
+  /* Стили для планшета в альбомной ориентации */
+
+@media screen and (max-width: 1024px) {
+.lead__subtitle {
+    margin: 0 auto 56px;
+    }
+  }
+  
+    /* Стили для планшета */
+  
+  @media screen and (max-width: 768px) {
+.lead__subtitle {
+    margin: 0 auto 56px;
+    }
+  }
+  
+    /* Стили для смартфона */
+  
+    @media screen and (max-width: 320px) {
+.lead__subtitle  {
+        margin: 0 auto 40px;
+        max-width: 288px;
+        font-size: 16px;
+        line-height: 125%;
+    }
+    }
