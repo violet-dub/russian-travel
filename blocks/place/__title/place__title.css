@@ -1,3 +1,5 @@
+/* Стили для экрана более 1280px */
+
 .place__title {
     margin: 0;
     font-weight: 900;
@@ -6,22 +8,23 @@
     align-self: end;
     justify-self: stretch;
 }
-  
-    /* Стили для планшета */
-  
-  @media screen and (max-width: 768px) {
+
+/* Стили для экрана от 768px до 1024px */
+
+@media screen and (min-width: 767px) and (max-width: 1023px) {
     .place__title {
         font-size: 42px;
         line-height: 110%;
     }
-  }
-  
-    /* Стили для смартфона */
-  
-    @media screen and (max-width: 320px) {
-        .place__title {
-            margin: 0 16px 0;
-            font-size: 32px;
-            line-height: 109%;
-        }
+}
+
+/* Стили для экрана от 320px до 768px */
+
+@media screen and (max-width: 767px) {
+    .place__title {
+        margin: 0 0 0 16px;
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 109%;
     }
+}

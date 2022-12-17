@@ -1,14 +1,19 @@
-.menu__links {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    text-align: start;
-    display: flex; 
-    justify-content: space-between;
-  }
+/* Стили для экрана более 1280px */
 
-@media screen and (max-width: 320px) {
-  .menu__links  {
-      flex-direction: column;
-    }
+.menu__links {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  list-style: none;
+}
+
+/* Стили для экрана от 320px до 768px */
+
+@media screen and (max-width: 767px) {
+  .menu__links {
+    flex-direction: column;
+    align-content: flex-start;
   }
+}

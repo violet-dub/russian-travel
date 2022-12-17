@@ -1,20 +1,19 @@
-.footer__copyrihgt {
-    margin: 0;
-    font-weight: 400;
+/* Стили для экрана более 1280px */
+
+.footer__copyright {
+  margin: 0;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  align-content: center;
+}
+
+/* Стили для экрана от 320px до 768px */
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
     font-size: 14px;
-    line-height: 114%;
-    color: #FFFFFF;
-    text-align: right;
+    line-height: 14px;
   }
-  
-    /* Стили для смартфона */
-  
-@media screen and (max-width: 320px) {
-.footer__copyrihgt {
-      padding: 0;
-      margin: 0;
-      font-size: 14px;
-      line-height: 100%;
-      text-align: left;
-  }
-    }
+}

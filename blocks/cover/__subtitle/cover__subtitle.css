@@ -1,40 +1,21 @@
-/* Основной код для разрешения 1280px */
-
 .cover__subtitle {
-    margin: 0 auto 0;
-    max-width: 360px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 122%;
-    text-align: center;
-    color: #FFFFFF;
-    z-index: 3;
+  max-width: 360px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin: 32px 0 0 0;
+  z-index: 3;
+}
+
+
+/* Стили для экрана от 320px до 768px */
+
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 16px 0 0 0;
   }
-
-
-/* Стили для планшета в альбомной ориентации */
-
-@media screen and (max-width: 1024px) {
-    .cover__subtitle {
-      margin: 0 auto 0;
-    }
-    }
-    
-/* Стили для планшета */
-    
-  @media screen and (max-width: 768px) {
-      .cover__subtitle {
-        margin: 0 auto 0;
-        }
-    }
-
-  /* Стили для смартфона */
-
-  @media screen and (max-width: 320px) {
-    .cover__subtitle {
-      margin: 0 auto 0;
-      max-width: 288px;
-      font-size: 14px;
-      line-height: 114%;
-    } 
-      }
+}

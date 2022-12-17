@@ -1,41 +1,29 @@
+/* Стили для экрана более 1280px */
+
 .place__paragraph {
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
-    margin: 0;
     margin-bottom: 26px;
 }
 
 .place__paragraph:last-of-type {
     margin-bottom: 0;
-} 
+}
 
-    /* Стили для планшета */
-  
-  @media screen and (max-width: 768px) {
+/* Стили для экрана от 1024px до 1280px */
+
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+    .place__image {
+        margin-bottom: 27px;
+    }
+}
+
+/* Стили для экрана от 768px до 1024px */
+
+@media screen and (max-width: 1023px) {
     .place__paragraph {
         font-size: 16px;
-        line-height: 163%;
-        margin: 0;
         margin-bottom: 25px;
     }
-    
-    .place__main-text:last-of-type {
-        margin-bottom: 0;
-    } 
-  }
-  
-    /* Стили для смартфона */
-  
-    @media screen and (max-width: 320px) {
-        .place__paragraph {
-            font-size: 16px;
-            line-height: 163%;
-            margin: 0;
-            margin-bottom: 25px;
-        }
-        
-        .place__main-text:last-of-type {
-            margin-bottom: 0;
-        } 
-    }
+}

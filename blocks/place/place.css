@@ -1,3 +1,5 @@
+/* Стили для экрана более 1280px */
+
 .place {
     margin: 0 0 80px;
     width: 100%;
@@ -10,41 +12,33 @@
 
 .place:last-of-type {
     margin: 0;
-} 
+}
 
-/* Стили для планшета в альбомной ориентации */
+/* Стили для экрана от 1024px до 1280px */
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 943px) and (max-width: 1279px) {
     .place {
         grid-template-columns: 1fr 1fr;
         column-gap: 32px;
     }
-  }
-  
-    /* Стили для планшета */
-  
-  @media screen and (max-width: 768px) {
+}
+
+/* Стили для экрана от 768px до 1024px */
+
+@media screen and (min-width: 767px) and (max-width: 943px) {
     .place {
         margin: 0 0 73px;
         grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
         column-gap: 28px;
     }
-    
-    .place:last-of-type {
-        margin: 0;
-    } 
-  }
-  
-    /* Стили для смартфона */
-  
-    @media screen and (max-width: 320px) {
-        .place {
-            margin: 0 0 50px;
-            grid-template-columns: 1fr;
-            gap: 32px;
-        }
-        
-        .place:last-of-type {
-            margin: 0;
-        } 
+}
+
+/* Стили для экрана от 320px до 768px */
+
+@media screen and (max-width: 767px) {
+    .place {
+        margin: 0 0 50px;
+        grid-template-columns: 1fr;
+        gap: 32px;
     }
+}

@@ -1,6 +1,13 @@
-/* Основной код для разрешения 1280px */
+/* Стили для экрана более 1280px */
 
 .menu {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+}
+
+/* Стили для экрана от 320px до 768px */
+
+@media screen and (max-width: 767px) {
+  .menu {
+    margin-bottom: 48px;
   }
+}

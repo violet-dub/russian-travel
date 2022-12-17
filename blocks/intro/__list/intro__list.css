@@ -1,6 +1,9 @@
+/* Стили для экрана более 1280px */
+
 .intro__list {
-    margin: 33px 0 0;
+    margin: 0;
     padding: 0;
     text-decoration: none;
     list-style-type: none;
+    text-align: left;
 }

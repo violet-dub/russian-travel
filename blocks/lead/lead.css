@@ -1,36 +1,33 @@
-/* Основной код для разрешения 1280px */
+/* Стили для экрана более 1280px */
 
+.lead {
+  max-width: calc(100% - 396px);
+  margin: 56px auto 92px;
+}
+
+/* Стили для экрана от 1024px до 1280px */
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
   .lead {
-    margin: 56px auto 0;
-    max-width: calc(100% - 296px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  /* Стили для планшета в альбомной ориентации */
-
-@media screen and (max-width: 1024px) {
-  .lead {
-    margin: 48px auto 0;
     max-width: calc(100% - 96px);
+    margin: 48px auto 92px;
   }
 }
 
-  /* Стили для планшета */
+/* Стили для экрана от 768px до 1024px */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .lead {
+    max-width: 100%;
+    margin: 48px auto 88px;
+  }
+}
+
+/* Стили для экрана от 320px до 768px */
 
 @media screen and (max-width: 768px) {
   .lead {
-    margin: 48px auto 0;
-    max-width: 100%;
+    max-width: calc(100% - 4px);
+    margin: 48px auto 64px;
   }
 }
-
-  /* Стили для смартфона */
-
-  @media screen and (max-width: 320px) {
-    .lead {
-      margin: 48px auto 0;
-      max-width: calc(100% - 4px);
-    }
-  }

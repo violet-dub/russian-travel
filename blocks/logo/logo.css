@@ -1,13 +1,16 @@
+/* Стили для экрана более 1280px */
+
 .logo {
     margin: 0;
     height: 52px;
     width: 176px;
-} 
+}
 
-@media screen and (max-width: 320px) {
+/* Стили для экрана от 320px до 768px */
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
     .logo {
         height: 42px;
         width: 142px;
     }
-  }
-  
+}

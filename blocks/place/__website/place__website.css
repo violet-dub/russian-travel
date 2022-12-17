@@ -1,13 +1,16 @@
+/* Стили для экрана более 1280px */
+
 .place__website {
     margin: 0;
     align-self: end;
     justify-self: stretch;
 }
 
-/* Стили для смартфона */
-  
-@media screen and (max-width: 320px) {
+/* Стили для экрана от 320px до 768px */
+
+@media screen and (max-width: 767px) {
     .place__website {
-        margin: 0 16px 0;
+        margin: 0 0 0 16px;
+        max-width: 288px;
     }
-    }
+}
