@@ -3,6 +3,12 @@
   font-weight: 400;
   line-height: 117%;
   text-align: right;
+  align-items: center;
+  margin-right: 18px;
+}
+
+.header__lang-link:last-of-type {
+  margin-right: 0;
 }
 
 /* Стили для экрана от 320px до 768px */
