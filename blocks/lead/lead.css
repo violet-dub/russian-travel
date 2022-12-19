@@ -1,7 +1,7 @@
 /* Стили для экрана более 1280px */
 
 .lead {
-  max-width: calc(100% - 396px);
+  max-width: calc(100% - 296px);
   margin: 56px auto 92px;
 }
 
