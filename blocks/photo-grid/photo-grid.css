@@ -1,8 +1,16 @@
 /* Стили для экрана более 1280px */
 
 .photo-grid {
-  margin: 0 auto 77px;
+  margin: 0 auto 80px;
   max-width: calc(100% - 96px);
+}
+
+/* Стили для экрана от 1024px до 1280px */
+
+@media screen and (min-width: 1023px) and (max-width: 1279px) {
+  .photo-grid {
+    margin: 0 auto 82px;
+  }
 }
 
 /* Стили для экрана от 768px до 1024px */
@@ -10,7 +18,7 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .photo-grid {
     max-width: calc(100% - 48px);
-    margin: 0 auto 80px;
+    margin: 0 auto 82px;
   }
 }
 
