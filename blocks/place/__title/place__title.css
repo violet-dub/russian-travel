@@ -5,15 +5,13 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 106%;
-    align-self: end;
-    justify-self: stretch;
 }
 
 /* Стили для экрана от 768px до 1024px */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     .place__title {
-        max-width: 96%;
+        max-width: 97%;
         font-size: 42px;
         line-height: 110%;
     }
@@ -24,8 +22,8 @@
 @media screen and (max-width: 767px) {
     .place__title {
         margin: 0 0 0 16px;
-        max-width: 288px;
+        width: 288px;
         font-size: 32px;
-        line-height: 109%;
+        line-height: 35px;
     }
 }

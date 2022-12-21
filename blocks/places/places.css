@@ -4,6 +4,7 @@
   margin: 0 auto 92px;
   padding: 0;
   max-width: calc(100% - 296px);
+/* max-height: 3392px; */
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
@@ -11,7 +12,7 @@
 
 /* Стили для экрана от 1024px до 1280px */
 
-@media screen and (min-width: 1023px) and (max-width: 1279px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .places {
     max-width: calc(100% - 96px);
   }
@@ -21,7 +22,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .places {
-    margin: 0 auto 88px;
+    margin: 0 auto 90px;
     max-width: calc(100% - 48px);
   }
 }
@@ -30,7 +31,7 @@
 
 @media screen and (max-width: 767px) {
   .places {
-    margin: 0 auto 65px;
+    margin: 0 auto 66px;
     max-width: 100%;
   }
 }

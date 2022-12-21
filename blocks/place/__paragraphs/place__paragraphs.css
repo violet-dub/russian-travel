@@ -8,11 +8,7 @@
 
 @media screen and (max-width: 767px) {
     .place__paragraphs {
-        margin: 6px 0 0 16px;
-        max-width: 288px;
-    }
-
-    .place__paragraph:nth-of-type(5n) {
-        margin: 8px 0 0 16px;
+        margin: 0 auto 0;
+        max-width: calc(100% - 32px);
     }
 }
