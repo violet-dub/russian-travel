@@ -7,7 +7,6 @@
   box-sizing: border-box;
   justify-content: space-between;
   align-items: flex-end;
-  overflow: hidden;
 }
 
 /* Стили для экрана от 768px до 1024px */

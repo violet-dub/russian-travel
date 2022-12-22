@@ -1,9 +1,9 @@
 /* Стили для экрана более 1280px */
 
 .page {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
-  max-width: 1280px;
+  max-width: 100%;
   font-family: "Inter", "Arial", sans-serif;
   background-color: #2A2C2F;
   color: #FFFFFF;
@@ -14,30 +14,4 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   box-sizing: border-box;
-  overflow-x: hidden;
-}
-
-/* Стили для экрана от 1024px до 1280px */
-
-@media screen and (max-width: 1024px) {
-  .page {
-    max-width: 1024px;
-  }
-}
-
-/* Стили для экрана от 320px до 768px */
-
-@media screen and (max-width: 768px) {
-  .page {
-    max-width: 768px;
-  }
-}
-
-
-/* Стили для экрана от 320px до 768px */
-
-@media screen and (max-width: 320px) {
-  .page {
-    max-width: 320px;
-  }
 }

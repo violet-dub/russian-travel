@@ -1,7 +1,7 @@
 /* Стили для экрана более 1280px */
 
 .intro {
-  max-width: calc(100% - 296px);
+  max-width: 984px;                         
   margin: 0 auto 92px;
 }
 
