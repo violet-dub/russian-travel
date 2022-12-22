@@ -14,13 +14,14 @@
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 /* Стили для экрана от 1024px до 1280px */
 
 @media screen and (max-width: 1024px) {
   .page {
-    max-width: 1024px
+    max-width: 1024px;
   }
 }
 

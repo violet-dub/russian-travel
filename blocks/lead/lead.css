@@ -3,6 +3,7 @@
 .lead {
   max-width: calc(100% - 296px);
   margin: 56px auto 92px;
+  overflow: hidden;
 }
 
 /* Стили для экрана от 1024px до 1280px */

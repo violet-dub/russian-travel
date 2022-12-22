@@ -5,6 +5,7 @@
   min-height: 740px;
   margin: 0 auto 0;
   position: relative;
+  overflow: hidden;
 }
 
 /* Стили для экрана от 1024px до 1280px */
