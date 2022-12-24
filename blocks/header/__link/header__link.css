@@ -7,7 +7,3 @@
 .header__link:hover {
   opacity: 0.8;
 }
-
-.header__link:last-of-type {
-  margin-right: 0;
-}

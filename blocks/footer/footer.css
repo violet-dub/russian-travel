@@ -12,13 +12,10 @@
 
 /* Стили для экрана от 768px до 1024px */
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .footer {
     margin: 88px auto 24px;
     max-width: calc(100% - 48px);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
   }
 }
 

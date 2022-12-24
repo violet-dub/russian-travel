@@ -1,30 +1,14 @@
 .lead__figure {
     margin: 0 auto;
-    max-width: 984px;
+    max-width: 100%;
     /* Ниже убираем невидимый отступ, который давал +4px в данном блоке на всех разрешениях */
     line-height: 0;
 }
 
-/* Стили для экрана от 1024px до 1280px */
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-    .lead__figure {
-        max-width: 928px;
-    }
-}
-
-/* Стили для экрана от 768px до 1024px */
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .lead__figure {
-        max-width: 768px;
-    }
-}
-
-/* Стили для экрана от 320px до 768px */
+/* Стили для экрана до 767px, где отступ невидимый отступ по макету нам не мешает */
 
 @media screen and (max-width: 767px) {
     .lead__figure {
-        max-width: 320px;
+        line-height: initial;
     }
-}
+} 

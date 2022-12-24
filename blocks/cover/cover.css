@@ -9,7 +9,7 @@
 
 /* Стили для экрана от 1024px до 1280px */
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .cover {
     max-width: 100%;
     min-height: 640px;
@@ -18,9 +18,8 @@
 
 /* Стили для экрана от 768px до 1024px */
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .cover {
-    max-width: 100%;
     min-height: 480px;
   }
 }
@@ -29,7 +28,6 @@
 
 @media screen and (max-width: 767px) {
   .cover {
-    max-width: 100%;
     min-height: 200px;
   }
 }

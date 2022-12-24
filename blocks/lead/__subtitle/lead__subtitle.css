@@ -6,28 +6,19 @@
   font-size: 30px;
   line-height: 36px;
   font-weight: 400;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
 
-/* Стили для экрана от 1024px до 1280px */
+/* Стили для экрана от 768px до 1280px */
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .lead__subtitle {
     margin: 0 auto 56px;
   }
 }
 
-/* Стили для экрана от 768px до 1024px */
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .lead__subtitle {
-    margin: 0 auto 56px;
-  }
-}
-
-
-/* Стили для экрана от 320px до 768px */
+/* Стили для экрана до 768px */
 
 @media screen and (max-width: 767px) {
   .lead__subtitle {

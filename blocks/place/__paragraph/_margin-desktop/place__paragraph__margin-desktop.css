@@ -1,0 +1,10 @@
+/* Добавляем модификатор для тех параграфов, где по верстке отличается отступ на один пиксель */
+
+/* Стили для экрана от 1024px до 1280px */
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+
+    .place__paragraph__margin-desktop {
+        margin: 0 0 26px 0;
+    }
+}
