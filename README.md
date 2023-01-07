@@ -4,6 +4,7 @@
 * Интро
 * Figma
 * Стек
+* GitHub Pages
 
 **Интро**
 
@@ -16,3 +17,7 @@
 **Стек**
 
 Стек проекта: HTML, CSS
+
+**GitHub Pages**
+
+* [Ссылка на сайт на GitHub Pages](https://violet-dub.github.io/russian-travel/)
